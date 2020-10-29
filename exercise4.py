@@ -62,7 +62,7 @@ while True:
             try:
                 chas(a,b)
             except:
-                print("Даун! на "+ str(b) + " ділити не можна!")
+                print("На "+ str(b) + " ділити не можна!")
 
     else:
         print('Operation did not found!')
