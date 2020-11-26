@@ -19,7 +19,7 @@ def dodavannya_sliv():
 def rahuvannya_bukv():
     bukvy = {}
     for bukva in text :
-        if bukva  in punctuation and bukva == " ":
+        if bukva  in punctuation or bukva == " ":
             continue
         else:
             if bukva in bukvy:
